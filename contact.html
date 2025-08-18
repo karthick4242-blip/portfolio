@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karthick — Contact</title>
+  <meta name="description" content="Contact page of Karthick — Junior Developer">
+  <link rel="icon" href="img/images.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <!-- Navigation -->
+  <nav class="navbar">
+    <h1><b>Portfolio</b></h1>
+    <div class="navbar-links">
+      <a href="index.html" class="navbar-link">Home</a>
+      <a href="about.html" class="navbar-link">About</a>
+      <a href="skills.html" class="navbar-link">Skills</a>
+      <a href="experience.html" class="navbar-link">Experience</a>
+      <a href="contact.html" class="navbar-link">Contact</a>
+    </div>
+
+    <!-- Mobile toggle -->
+    <div class="navbar-menu-toggle" onclick="showNavbar()">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Side Navbar -->
+  <div class="side-navbar" id="sideNavbar">
+    <p style="text-align:right;" onclick="closeNavbar()">
+      <i class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="side-navbar-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <main>
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p class="contact-subtitle">I’d love to hear from you! Feel free to reach out.</p>
+      
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <p><i class="fa-solid fa-envelope"></i> s.karthick4242@.com</p>
+          <p><i class="fa-solid fa-phone"></i> +91 8838418993</p>
+          <p><i class="fa-solid fa-location-dot"></i> Chennai, India</p>
+
+          <div class="social-links">
+            <a href="https://github.com/karthick4242-blip/" target="_blank"><i class="fab fa-github"></i></a>
+           <a href="https://www.linkedin.com/in/karthick-s-38488b2a4/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ 
+  <!-- JavaScript -->
+ <script src="index.js"></script>
+
+</body>
+</html>
